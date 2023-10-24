@@ -10,3 +10,6 @@ export const applyNumber = (number) => {
   return { type: APPLY_NUMBER, payload: Number(number) };
 };
 export const CLEAR = "CLEAR";
+export const MEMORY_PLUS = "MEMORY_PLUS";
+export const MEMORY_CLEAR = "MEMORY_CLEAR";
+export const MEMORY_RECALL = "MEMORY_RECALL";
